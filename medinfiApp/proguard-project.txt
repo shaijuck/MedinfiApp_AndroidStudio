@@ -1,0 +1,51 @@
+-keep class android.support.v4.** { *; }   
+-dontwarn android.support.v4.**
+-dontwarn javax.activation.**
+-dontwarn javax.security.**
+-dontwarn java.awt.**
+-libraryjars <java.home>/lib/rt.jar
+-keep class javax.** {*;}
+-keep class com.sun.** {*;}
+-keep class myjava.** {*;}
+-keep class org.apache.harmony.** {*;}
+-keep public class Mail {*;}        
+-dontshrink
+-dontwarn org.mockito.**
+-dontwarn sun.reflect.**
+-dontwarn android.test.**
+-keep class javax.ws.rs.** { *; }
+-dontwarn com.fasterxml.jackson.**
+-dontwarn org.xmlpull.v1.**
+-dontwarn javax.jdo.**
+-dontwarn com.google.api.client.googleapis.extensions.android.gms.**
+-dontwarn com.google.android.gms.**
+-dontwarn com.actionbarsherlock.**
+-keep class com.flurry.** { *; }
+-dontwarn com.flurry.**
+-keep class com.facebook.** { *; }
+-dontwarn com.facebook.**
+
+-keep class com.squareup.picasso.** { *; }
+-dontwarn com.squareup.picasso.**
+
+
+-keep public class com.mobileapptracker.** {
+    public *;
+}
+ 
+-keep class * extends java.util.ListResourceBundle {
+    protected Object[][] getContents();
+}
+ 
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+ 
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+    @com.google.android.gms.common.annotation.KeepName *;
+}
+ 
+-keepnames class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}

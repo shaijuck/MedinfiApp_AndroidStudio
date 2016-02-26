@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <com.medinfi.utils.TextViewRobotoBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/syncWithPhone"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imgCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="onClickCancel"
+            android:src="@android:drawable/ic_delete" />
+    </RelativeLayout>
+
+    <com.medinfi.utils.TextViewRobotoRegular
+        android:id="@+id/syncUpWithPhoneDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/syncWithPhoneFound"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/layoutSaveAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dip"
+        android:gravity="right|center"
+        android:onClick="saveAllClickEvent"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <com.medinfi.utils.TextViewRobotoLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dip"
+            android:text="@string/syncSaveAll"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imgSaveAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/favrate_icon" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgLineDivider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/div_line" />
+
+    <ListView
+        android:id="@+id/matchedContactsListView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#FFFFFF"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/layoutNoNetWork"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:orientation="vertical"
+        android:textColor="@color/lightgrey"
+        android:visibility="gone" >
+
+        <com.medinfi.utils.TextViewRobotoRegular
+            android:id="@+id/txtNoNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/No_Network"
+            android:textColor="@color/lightgrey"
+            android:textSize="20sp" />
+
+        <com.medinfi.utils.TextViewRobotoRegular
+            android:id="@+id/txtNoNetworkDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/No_NetworkDesc"
+            android:textColor="@color/lightgrey"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+[
+    {
+        "outputFile": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/values-v11/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 184,
+                        "endColumn": 55,
+                        "endOffset": 237
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 44,
+                    "endOffset": 153
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/values-v11/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 6,
+                        "startOffset": 290,
+                        "endColumn": 46,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 158,
+                    "endColumn": 43,
+                    "endOffset": 197
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/values-v11/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 2,
+                        "startOffset": 243,
+                        "endColumn": 41,
+                        "endOffset": 282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 202,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 387
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values-v11/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 392,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 589
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values-v11/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 368,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 565
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 594,
+                    "endLine": 15,
+                    "endColumn": 8,
+                    "endOffset": 727
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 842,
+                        "endLine": 17,
+                        "endColumn": 8,
+                        "endOffset": 977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 732,
+                    "endLine": 19,
+                    "endColumn": 75,
+                    "endOffset": 1035
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 78,
+                        "endLine": 5,
+                        "endColumn": 75,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1040,
+                    "endLine": 26,
+                    "endColumn": 12,
+                    "endOffset": 1472
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 392,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 830
+                    }
+                }
+            }
+        ]
+    }
+]

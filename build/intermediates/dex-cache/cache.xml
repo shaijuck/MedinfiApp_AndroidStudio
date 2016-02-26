@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_0a71ad78c40945ee4af655c845f136c53008f50a.jar" />
+    </item>
+    <item
+        jar="/home/mili/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_773b9f387505db606237d4f8836056c603091b93.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/libs/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/bolts-android-1.2.0_2e15f8578073f925bad53cdf66391b97e162ee70.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices_99a5a2f84315cda3c23d755c04077e4a0584f49b.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_93b4cc1475e00d57c75fa39dfa8f488a2d870ef9.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/libs/appflood-2.24.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="adbd4516c84a6df755ba413c9386dd907bdf1610">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/appflood-2.24_88c1f5e7104ef9e90e91914f374409076dd8c8f3.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/libs/FlurryAnalytics-6.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bed3029996f255004cb891ab61bd3a85a108f014">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/FlurryAnalytics-6.1.0_0f7e054507fc2321683eccdff9aee6f120d2f623.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3_b6ebde65d33b733a273421520967a44b9805d84f.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/com.actionbarsherlock-actionbarsherlock-4.4.0_4fda764853a61a7859a85a3d67fd55fc91063b88.jar" />
+    </item>
+    <item
+        jar="/home/mili/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.3.0/bc535105332645408ef5f1380215cc954b842178/bolts-applinks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/bolts-applinks-1.3.0_5fc28d244038b726061cd315f6fb0707d094df9f.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/libs/MobileAppTracker-3.9.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f9b0ecd955996374bc1f4506a12a11abb222521b">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/MobileAppTracker-3.9_1da6227d7c5687885a7c87369d03884353dff9b8.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bcb4a50f5e2c67b3e84441b1b2a239856776c9b8">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.10.0_2748b032e4f41c5061019cd15b2b3167001eb052.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.1.1_3abc59f93001d2d5440a13f001422ea60d46259e.jar" />
+    </item>
+    <item
+        jar="/home/mili/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.3.0/8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c/bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/bolts-tasks-1.3.0_62b277bb0425a539e6f0b95a00497e301182e7ec.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-5.0.89_c1fdaa964ceea9599465e5fc6d06fc3f4914f560.jar" />
+    </item>
+    <item
+        jar="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/libs/glide-3.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="82552712133e094bbb565289fb2bc2d2952ba551">
+        <dex dex="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/pre-dexed/debug/glide-3.4.0_28ba421384489683d37747dac86464442f33689c.jar" />
+    </item>
+
+</items>

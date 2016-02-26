@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_action_person.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/ic_action_person.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/filter.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/filter.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/profile_off.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/profile_off.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/doctor_on.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/doctor_on.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/tab_share.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/tab_share.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/profile_on.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/profile_on.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/search.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/search.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/hospital_off.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/hospital_off.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/hospital_on.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/hospital_on.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/tab_rated.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/tab_rated.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/tab_saved.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/tab_saved.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/tab_save.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/tab_save.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/tab_rate.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/tab_rate.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/one_tick.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/one_tick.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/tab_call.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/tab_call.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/profile_save.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/profile_save.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/profile_review.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/profile_review.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/doctor_off.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/doctor_off.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/hospital_icon_normal.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/hospital_icon_normal.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/save_black.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/save_black.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/close.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/close.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/one_tick_disable.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/one_tick_disable.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/profile_suggest.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/profile_suggest.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/profile_feedback.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/profile_feedback.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/two_tick.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxxhdpi/two_tick.png"
+    }
+]

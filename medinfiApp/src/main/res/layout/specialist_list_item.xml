@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+   <!--  <ImageView
+        android:id="@+id/imgItem"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_launcher"
+        android:visibility="gone" /> -->
+<ImageView
+        android:id="@+id/tick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/specialist_tick_selector" 
+         android:layout_marginLeft="10dp"
+         
+         />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:textColor="@drawable/specialist_txt_selector"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/specialist_txt_selector"
+            android:paddingBottom="10dip"
+            android:textSize="14sp" />
+        
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_action_next_item" 
+        android:visibility="gone"/>
+    
+    </LinearLayout>
+<View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/div_line" />
+</LinearLayout>

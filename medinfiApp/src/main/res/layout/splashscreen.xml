@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_screen"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <LinearLayout
+            android:id="@+id/ll_splash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/splash_logo" />
+
+            <com.medinfi.utils.TextViewRobotoRegular
+                android:id="@+id/tv_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                android:text="@string/title_SplashScreen"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.medinfi.utils.TextViewRobotoRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="#999999"
+                android:paddingBottom="7dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="7dip"
+                android:text="@string/beta"
+                android:textColor="@color/white"
+                android:textSize="14sp" 
+                android:visibility="gone"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:indeterminate="true"
+                android:indeterminateDrawable="@drawable/my_progress_indeterminate" >
+            </ProgressBar>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutNoNetWork"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_splash"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip"
+            android:orientation="vertical" >
+
+            <com.medinfi.utils.TextViewRobotoRegular
+                android:id="@+id/txtNoNetwork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/No_Network"
+                android:textColor="@color/lightgrey"
+                android:textSize="20sp" />
+
+            <com.medinfi.utils.TextViewRobotoRegular
+                android:id="@+id/txtNoNetworkDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dip"
+                android:text="@string/No_NetworkDesc"
+                android:textColor="@color/lightgrey"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

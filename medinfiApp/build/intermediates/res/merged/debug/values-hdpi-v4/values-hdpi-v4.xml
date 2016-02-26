@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_height">30dp</dimen>
+    <dimen name="btn_width">30dp</dimen>
+    <dimen name="homescreen_item_lyt_height">100dp</dimen>
+    <dimen name="hs_btn_height">66dp</dimen>
+    <dimen name="hs_btn_width">61dp</dimen>
+</resources>

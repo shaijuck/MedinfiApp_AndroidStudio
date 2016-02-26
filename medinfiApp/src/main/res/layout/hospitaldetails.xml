@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+		
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/black"
+            android:orientation="horizontal" />
+
+        <ScrollView
+            android:id="@+id/sv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:scrollbars="none" >
+
+            <RelativeLayout 
+                android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+                
+            <LinearLayout
+                android:id="@+id/mainLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="vertical" 
+                android:paddingBottom="60dp">
+                <ImageView
+                        android:id="@+id/iv_doctorimage_hospitals2"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitCenter"
+                        android:layout_height="200dp"
+                        android:visibility="gone"
+                        android:contentDescription="@string/hello_world"/>
+       <!--        <com.daimajia.slider.library.SliderLayout
+		        android:id="@+id/slider"
+		        android:layout_width="match_parent"
+		        custom:pager_animation="Accordion"
+		        custom:auto_cycle="false"
+		        custom:indicator_visibility="visible"
+		        custom:pager_animation_span="1100"
+		        android:layout_height="200dp"
+		        android:visibility="gone"/> --> 
+              
+              <RelativeLayout 
+                  android:id="@+id/myImgSlider"
+                  android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="gone"
+                  >
+              <android.support.v4.view.ViewPager
+            android:id="@+id/myviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+               <include
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentBottom="true"
+                   android:layout_alignParentLeft="true"
+                   android:layout_marginBottom="15dp"
+                   layout="@layout/indicator" />
+
+              </RelativeLayout>
+           <!--      <com.daimajia.slider.library.Indicators.PagerIndicator
+		        android:id="@+id/custom_indicator"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        /> -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" 
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/back_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/imgBack"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/b_arrow" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/screen_logo" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/hospital_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/hospitals"
+                        android:textColor="@color/pink_color"
+                        android:textSize="18sp"
+                        android:visibility="gone" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/profiLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@android:color/white"
+                    android:descendantFocusability="blocksDescendants" >
+					<!-- Made invisible for the new layout -->
+                    <ImageView
+                        android:id="@+id/iv_doctorimage_hospitals"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:contentDescription="@string/hello_world"
+                        android:onClick="onImageZoom"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hospital_icon_normal" 
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/iv_doctorimage_hospitals"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/hospitalname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+				<!-- 16Dec: designation now moved to address and landmark tab
+                        <TextView
+                            android:id="@+id/hospital_designation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />-->
+                         <TextView
+                            android:id="@+id/website_top"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/pink_color"
+                            android:textSize="14sp"
+                             />
+                         
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/multipleImageLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginLeft="5dip" >
+
+                    <ImageView
+                        android:id="@+id/imgHospEmergrncyGate"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:onClick="onEmergencyImage"
+                        android:visibility="gone"
+                        android:scaleType="fitXY"
+                        android:layout_marginLeft="5dip"
+                         />
+
+                    <ImageView
+                        android:id="@+id/imgHospLeft"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:onClick="onLeftImage"
+                        android:visibility="gone"
+                        android:scaleType="fitXY"
+                        android:layout_marginLeft="5dip"
+                         />
+
+                    <ImageView
+                        android:id="@+id/imgHospRight"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:visibility="gone"
+                        android:onClick="onRightImage"
+                        android:layout_marginLeft="5dip"
+                        android:scaleType="fitXY"
+                        />
+                </LinearLayout>
+
+                <!-- The rating layout was here in the old layout -->
+
+                <RelativeLayout
+                    android:id="@+id/recommendedLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="5dip" 
+                    android:layout_marginBottom="5dip"
+                    android:visibility="gone">
+					<LinearLayout
+                        android:id="@+id/rate_layout_top"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="visible"
+                        android:weightSum="10" >
+
+                        <LinearLayout
+                            
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"                           
+                            android:layout_weight="4"
+                            android:gravity="center_vertical" >
+
+                            <RatingBar
+                                android:id="@+id/overAllRatingTop"
+                                style="@style/ratingBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center" />
+
+                             <TextView
+                                android:id="@+id/rated_text_value_top"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="left"
+                                android:paddingLeft="5dip"
+                                android:text="@string/overAllRatingTop"
+                                android:textColor="@color/pink_color"
+                                android:visibility="visible" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <com.medinfi.utils.TextViewRobotoRegular
+                        android:id="@+id/plus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/plusText"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:layout_toRightOf="@+id/rate_layout_top"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textSize="16sp" />
+                    <com.medinfi.utils.TextViewRobotoRegular
+                        android:id="@+id/txtRecomended"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"                        
+                        android:layout_below="@+id/rate_layout_top"
+                         android:layout_alignParentLeft="true"
+                        android:text="@string/recommendedBy"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+                    
+					
+                    <TextView
+                        android:id="@+id/txtReview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/plus"
+                        android:text="@string/reviewsSmall"
+                        android:textColor="@color/pink_color"
+                        android:visibility="visible" />
+          <!--              <LinearLayout
+                    android:id="@+id/lineLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/div_line"
+                    android:layout_below="@+id/txtReview"
+                    android:orientation="vertical" />-->
+                </RelativeLayout>
+		
+                <LinearLayout
+                    android:id="@+id/lineLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/div_line"
+                    android:layout_below="@+id/txtReview"
+                    android:orientation="vertical"
+                    android:visibility="gone" />
+              
+				<!-- To be shifted to the floating bar therefore set to gone here and in activity-->
+                <LinearLayout
+                    android:id="@+id/favRateLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@android:color/white" 
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                   <!-- <TextView
+                        android:id="@+id/hospital_rate_the_doctor_button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/rate_review_icon"
+                        android:gravity="center"
+                        android:padding="5dip"
+                        android:text="@string/rate_the_doctor_tv"
+                        android:textColor="@color/pink_color"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/line_two"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/favrate"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/favrate_icon"
+                        android:gravity="center"
+                        android:padding="5dip"
+                        android:text="@string/favrate"
+                        android:textColor="@color/pink_color"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/line_two"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@+id/hospital_share_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/share_icon"
+                        android:gravity="center"
+                        android:padding="5dip"
+                        android:text="@string/share"
+                        android:textColor="@color/pink_color"
+                        android:textSize="14sp" />-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lineLayoutBelowFav"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/div_line"
+                    android:orientation="vertical" 
+                    android:visibility="gone"/>
+
+                <RelativeLayout
+                    android:id="@+id/layoutLandMark"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/callLayout"
+                        android:orientation="vertical" >
+						
+                        <com.medinfi.utils.TextViewRobotoRegular
+                            android:id="@+id/localityLandMarkHeader"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="5dip"
+                            android:paddingRight="5dip"
+                            android:paddingTop="5dip"
+                            android:text="@string/localityLandMark"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+						 <com.medinfi.utils.TextViewRobotoRegular
+                            android:id="@+id/hospital_designation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+                        <com.medinfi.utils.TextViewRobotoRegular
+                            android:id="@+id/localityLandMarkValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/callLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:gravity="center" 
+                        android:layout_margin="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/callLayout"
+                            android:gravity="center"
+                            android:onClick="onMapClicked"
+                            android:orientation="vertical" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_action_directions" />
+
+                            <!-- <com.medinfi.utils.TextViewRobotoRegular
+                                android:id="@+id/txtdistance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/screen_header"
+                                android:textSize="15sp" />
+
+                            <com.medinfi.utils.TextViewRobotoRegular
+                                android:id="@+id/txtKm"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/km"
+                                android:textColor="@color/screen_header"
+                                android:textSize="12sp" /> -->
+                        </LinearLayout>
+		<!-- Visibility set to gone for new layout -->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_below="@+id/callLayout"
+                            android:background="@drawable/line_two"
+                            android:orientation="vertical" 
+                            android:visibility="gone">
+                        </LinearLayout>
+        <!-- Visibility set to gone for new layout -->
+                        <Button
+                            android:id="@+id/hospital_call_btn"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/ic_action_call"
+							android:visibility="gone"/>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lineAboveFacilityLaout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/div_line"
+                    android:orientation="vertical"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/facilityLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <com.medinfi.utils.TextViewRobotoRegular
+                        android:id="@+id/facilityHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dip"
+                        android:paddingRight="5dip"
+                        android:paddingTop="5dip"
+                        android:text="@string/facility"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.medinfi.utils.TextViewRobotoRegular
+                        android:id="@+id/bedsValues"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="2dip"
+                        android:text="@string/beds"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.medinfi.utils.TextViewRobotoRegular
+                        android:id="@+id/emergencyServices"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="2dip"
+                        android:text="@string/emergencyServices"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.medinfi.utils.TextViewRobotoRegular
+                        android:id="@+id/icuServices"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="2dip"
+                        android:text="@string/ICUIntesiveCareUnit"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.medinfi.utils.TextViewRobotoRegular
+                        android:id="@+id/nicuServices"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="2dip"
+                        android:text="@string/NICUNeoNatalIntensiveCareUnit"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.medinfi.utils.TextViewRobotoRegular
+                        android:id="@+id/ambulanceServices"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="2dip"
+                        android:text="@string/ambulancesService"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.medinfi.utils.TextViewRobotoRegular
+                        android:id="@+id/hospitalParking"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="2dip"
+                        android:paddingTop="2dip"
+                        android:text="@string/HospitalParking"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/facilityBelowLine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/div_line"
+                    android:orientation="vertical"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/associated_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@android:color/white"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/associated_with"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="@string/associated_doctors"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/associated_layout_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/div_line"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/associateDoctorLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <!--
+                             <RatingBar
+                            android:id="@+id/associatDocRating"
+                            style="@style/ratingBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:visibility="gone" />
+                        -->
+                    </LinearLayout>
+
+                    <com.medinfi.utils.TextViewRobotoRegular
+                        android:id="@+id/viewAllDoctor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dip"
+                        android:text="@string/viewAll"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+                    
+  					<View
+                        android:id="@+id/rating_start_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/div_line"
+                        />
+					<LinearLayout
+                    android:id="@+id/rateLayoutMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:baselineAligned="false"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dip"
+                    android:layout_marginTop="5dip"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dip" >
+
+                    <LinearLayout
+                        android:id="@+id/rate_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:id="@+id/rated_text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:gravity="right"
+                            android:paddingRight="5dip"
+                            android:text="@string/overAllRating"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dip"
+                            android:layout_weight="4"
+                            android:gravity="center_vertical" >
+
+                            <RatingBar
+                                android:id="@+id/overAllRating"
+                                style="@style/ratingBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center" />
+
+                            <TextView
+                                android:id="@+id/rated_text_value"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="left"
+                                android:paddingLeft="5dip"
+                                android:textColor="@android:color/black"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fee_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:id="@+id/fees_text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="6"
+                            android:gravity="right"
+                            android:paddingRight="5dip"
+                            android:text="@string/fees"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dip"
+                            android:layout_weight="4" >
+
+                            <RatingBar
+                                android:id="@+id/feesRating"
+                                style="@style/ratingBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/fees_text_value"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="left"
+                                android:paddingLeft="5dip"
+                                android:textColor="@android:color/black"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/waittime_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:id="@+id/waittime_text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="6"
+                            android:gravity="right"
+                            android:paddingRight="5dip"
+                            android:text="@string/wait_time"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dip"
+                            android:layout_weight="4" >
+
+                            <RatingBar
+                                android:id="@+id/waitingRating"
+                                style="@style/ratingBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/waittime_text_value"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="left"
+                                android:paddingLeft="5dip"
+                                android:textColor="@android:color/black"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/attitude_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:id="@+id/attitude_text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="6"
+                            android:gravity="right"
+                            android:paddingRight="5dip"
+                            android:text="@string/attitude"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dip"
+                            android:layout_weight="4" >
+
+                            <RatingBar
+                                android:id="@+id/attitudeRating"
+                                style="@style/ratingBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/attitude_text_value"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="left"
+                                android:paddingLeft="5dip"
+                                android:textColor="@android:color/black"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                        android:id="@+id/review_layout_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/div_line"
+                        android:visibility="gone" />
+                    <RelativeLayout
+                        android:id="@+id/review_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@android:color/white"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/reviews"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="@string/review"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/readall_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/readall"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    
+
+                    <LinearLayout
+                        android:id="@+id/reviewsLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/div_line"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/awards_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp" >
+
+                            <TextView
+                                android:id="@+id/awardtext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="@string/awards_and_recognisation"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/div_line" />
+
+                        <LinearLayout
+                            android:id="@+id/awards_recognisation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/member_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp" >
+
+                            <TextView
+                                android:id="@+id/membertext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="@string/membership"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/div_line" />
+
+                        <LinearLayout
+                            android:id="@+id/membership"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hospital_description_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp" >
+
+                            <TextView
+                                android:id="@+id/hospitaldescriptiontext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="@string/hospital_description"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/div_line" />
+
+                        <LinearLayout
+                            android:id="@+id/hospital_description_lyt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hospital_speciality_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp" >
+
+                            <TextView
+                                android:id="@+id/hospitalspecialitytext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="@string/hospital_speciality"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/div_line" />
+
+                        <LinearLayout
+                            android:id="@+id/hospital_speciality_lyt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hospitalLandMarkMainLt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp" >
+
+                            <TextView
+                                android:id="@+id/hospitalLandMarktext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="@string/hospital_landMark"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/div_line" />
+
+                        <LinearLayout
+                            android:id="@+id/hospitalLandMarklyt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hospitalEmailIdMainLt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp" >
+
+                            <TextView
+                                android:id="@+id/hospitalEmailIdtext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="@string/hospital_EmailId"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/div_line" />
+
+                        <LinearLayout
+                            android:id="@+id/hospitalEmailIdlyt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hospital_website_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp" >
+
+                            <TextView
+                                android:id="@+id/hospitalwebsitetext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:text="@string/hospital_website"
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/div_line" />
+
+                        <LinearLayout
+                            android:id="@+id/hospital_website_lyt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutNoNetWork"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="20dip"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/txtNoNetwork"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/No_Network"
+                        android:textColor="@color/lightgrey"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/txtNoNetworkDesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dip"
+                        android:text="@string/No_NetworkDesc"
+                        android:textColor="@color/lightgrey"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+             <ImageView
+            android:id="@+id/close_hos_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close" 
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            />
+            </RelativeLayout>
+        </ScrollView>
+        
+       
+		        
+		<LinearLayout
+        android:id="@+id/policy_terms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" 
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"       
+         >
+
+        <include layout="@layout/floating_tab" />
+        
+		</LinearLayout>
+		        	
+		        
+				
+    </RelativeLayout>
+
+</LinearLayout>

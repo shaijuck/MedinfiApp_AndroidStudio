@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/values-hdpi-v4/values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/values-hdpi/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 134,
+                        "endColumn": 41,
+                        "endOffset": 171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 97,
+                    "endColumn": 40,
+                    "endOffset": 133
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/values-hdpi/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 40,
+                        "endOffset": 128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 138,
+                    "endColumn": 58,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/values-hdpi/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 6,
+                        "startOffset": 179,
+                        "endColumn": 60,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 197,
+                    "endColumn": 44,
+                    "endOffset": 237
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/values-hdpi/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 6,
+                        "startOffset": 300,
+                        "endColumn": 46,
+                        "endOffset": 340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 242,
+                    "endColumn": 43,
+                    "endOffset": 281
+                },
+                "from": {
+                    "file": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/values-hdpi/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 2,
+                        "startOffset": 253,
+                        "endColumn": 41,
+                        "endOffset": 292
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgLineDivider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+         android:visibility="gone"
+        android:background="@drawable/div_line_menu" />
+
+    <LinearLayout
+        android:id="@+id/layoutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+         >
+
+        <ImageView
+            android:id="@+id/menu_item_icon"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/home_icon" />
+
+        <com.medinfi.utils.TextViewRobotoRegular
+            android:id="@+id/txtMenuItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="Save"
+            android:textColor="@color/screen_header"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgLineDividerBelow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginLeft="10dip"
+        android:background="@drawable/div_line_menu" />
+
+</LinearLayout>

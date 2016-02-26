@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+ <!--    <LinearLayout
+        android:id="@+id/layoutInclude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" 
+        android:visibility="visible">
+
+        <include layout="@layout/header_layout" />
+    </LinearLayout> --> 
+    <LinearLayout
+        android:id="@+id/layoutInclude2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="visible"
+         >
+
+        <include layout="@layout/tab_layout" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/hospitals"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <com.medinfi.utils.MyEditText
+        android:id="@+id/searchedittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/hint_Hospital"
+        android:imeOptions="actionSearch"
+        android:textSize="14sp"
+        android:singleLine="true" />
+    
+<ProgressBar
+             android:id="@+id/globalprogressBar"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" 
+             android:layout_gravity="center_horizontal"
+             android:visibility="gone"/>
+     <com.medinfi.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/hospitalListView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#FFFFFF"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        ptr:ptrShowIndicator="false"
+        android:scrollbars="none" 
+        android:visibility="visible">
+    </com.medinfi.pulltorefresh.library.PullToRefreshListView>
+    
+      <ListView
+                android:id="@+id/globalListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/searchLayout"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:choiceMode="singleChoice"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:listSelector="@android:color/transparent"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layoutNoNetWork"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dip"
+        android:orientation="vertical"
+        android:textColor="@color/lightgrey"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/txtNoNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/No_Network"
+            android:textColor="@color/lightgrey"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtNoNetworkDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/No_NetworkDesc"
+            android:textColor="@color/lightgrey"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtNoResultFound"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:gravity="center"
+        android:text="@string/No_ResultFound"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</LinearLayout>

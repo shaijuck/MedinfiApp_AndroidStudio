@@ -1,0 +1,378 @@
+[
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/image_switcher_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/image_switcher_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/search_list_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/search_list_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_large.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/layout/messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/specialist_list_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/specialist_list_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/reviews_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/reviews_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/header.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/header.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/tab_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/tab_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/hospitaldetails.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/hospitaldetails.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/detailed_list_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/detailed_list_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/messenger_button_send_white_round.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/layout/messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__screen_simple_overlay_action_mode.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__search_view.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__search_view.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/hospitals_screen.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/hospitals_screen.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__screen_action_bar_overlay.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__screen_action_bar_overlay.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/favourite_list_data.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/favourite_list_data.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/hospital_list_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/hospital_list_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/search_locality_list_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/search_locality_list_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/locationscreen.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/locationscreen.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/profilescreen.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/profilescreen.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/sherlock_spinner_dropdown_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/sherlock_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/header_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/header_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_round.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/layout/messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/menuitems.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/menuitems.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__screen_simple.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__screen_simple.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/reviews_menu_items.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/reviews_menu_items.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/medical_report_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/medical_report_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__action_bar_home.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__action_bar_home.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/homescreen.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/homescreen.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/location_update.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/location_update.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/floating_tab.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/floating_tab.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/layout/com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/upload_medical_report_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/upload_medical_report_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/rate_the_app.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/rate_the_app.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/contactus.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/contactus.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/rating_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/rating_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/com_facebook_activity_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/layout/com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/image_selector_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/image_selector_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/profile_pic_display.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/profile_pic_display.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/messenger_button_send_white_large.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/layout/messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__list_menu_item_icon.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/gprs_alert_dialog.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/gprs_alert_dialog.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/searchbar.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/searchbar.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/ratingbardetail.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/ratingbardetail.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/upload_precription.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/upload_precription.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/favourite_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/favourite_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/forgot_alert_dialog.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/forgot_alert_dialog.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/specialists.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/specialists.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/splashscreen.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/splashscreen.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__activity_chooser_view_list_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/multiple_image_filiper.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/multiple_image_filiper.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__action_mode_bar.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__simple_dropdown_hint.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/specialist_doctors_screen.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/specialist_doctors_screen.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__action_menu_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/doctordetail_hospital_list_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/doctordetail_hospital_list_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/terms_policy.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/terms_policy.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/medical_report_items.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/medical_report_items.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/viewpager_main.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/viewpager_main.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__action_bar_tab.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__action_bar_tab.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_small.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/layout/messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/suggestion_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/suggestion_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/profile_list_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/profile_list_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/show_web_view.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/show_web_view.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/doctor_list_item_shareoption.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/doctor_list_item_shareoption.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__list_menu_item_checkbox.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/messenger_button_send_white_small.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/layout/messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/autocompletesearch.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/autocompletesearch.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__action_bar_tab_bar_view.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__action_bar_tab_bar_view.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/com_facebook_device_auth_dialog_fragment.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/layout/com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/profile_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/profile_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__list_menu_item_radio.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__search_dropdown_item_icons_2line.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__action_menu_item_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/contact_syncup_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/contact_syncup_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__screen_action_bar.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__screen_action_bar.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/review_thankyou_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/review_thankyou_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/review_list_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/review_list_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/contact_syncup_list_data.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/contact_syncup_list_data.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/menu_item_list.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/menu_item_list.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/com_facebook_login_fragment.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/layout/com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/register.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/register.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/profile_hos_list_data.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/profile_hos_list_data.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__activity_chooser_view.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/custom_actionbar.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/custom_actionbar.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__action_mode_close_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__action_mode_close_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/doctorsdetails.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/doctorsdetails.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/indicator.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/indicator.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/view_pager_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/view_pager_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/sherlock_spinner_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/sherlock_spinner_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__popup_menu_item_layout.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/abs__action_bar_title_item.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/layout/abs__action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/layout/footer.xml",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/layout/footer.xml"
+    }
+]

@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/messenger_bubble_large_white.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/drawable-xxhdpi/messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_normal_dark.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_action_person.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/ic_action_person.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_focus_dark.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_focus_dark.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tab_rated.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/tab_rated.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tab_call.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/tab_call.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/hospital_icon_normal.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/hospital_icon_normal.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_focus_light.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/com_facebook_button_like_icon_selected.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/drawable-xxhdpi/com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/com_facebook_favicon_white.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/drawable-xxhdpi/com_facebook_favicon_white.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_dark.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_light.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_normal_light.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/doctor_off.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/doctor_off.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_normal_light.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/one_tick.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/one_tick.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/messenger_bubble_small_white.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/drawable-xxhdpi/messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_pressed_light.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_focus_dark.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/close.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/close.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/two_tick.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/two_tick.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/profile_off.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/profile_off.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/com_facebook_button_icon_white.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/drawable-xxhdpi/com_facebook_button_icon_white.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/one_tick_disable.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/one_tick_disable.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_focus_light.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_pressed_light.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/com_facebook_button_send_icon_white.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/drawable-xxhdpi/com_facebook_button_send_icon_white.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tab_saved.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/tab_saved.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/powered_by_google_light.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/powered_by_google_light.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/com_facebook_button_icon_blue.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/drawable-xxhdpi/com_facebook_button_icon_blue.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/search.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/search.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tab_share.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/tab_share.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/profile_review.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/profile_review.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_normal_dark.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_pressed_dark.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/hospital_on.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/hospital_on.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_disabled_light.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/profile_save.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/profile_save.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/powered_by_google_dark.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/powered_by_google_dark.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/profile_feedback.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/profile_feedback.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/profile_suggest.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/profile_suggest.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/messenger_button_send_round_shadow.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/drawable-xxhdpi/messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/filter.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/filter.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tab_rate.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/tab_rate.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/save_black.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/save_black.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_focus_light.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_focus_light.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tab_save.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/tab_save.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/messenger_bubble_small_blue.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/drawable-xxhdpi/messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/messenger_bubble_large_blue.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.0/res/drawable-xxhdpi/messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/doctor_on.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/doctor_on.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/profile_on.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/profile_on.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_icon_pressed_dark.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_disabled_dark.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/hospital_off.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/res/drawable-xxhdpi/hospital_off.png"
+    },
+    {
+        "merged": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_signin_btn_text_focus_dark.9.png",
+        "source": "/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png"
+    }
+]

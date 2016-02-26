@@ -1,0 +1,143 @@
+-injars /home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
+-outjars /home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /home/mili/Android/Sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontwarn
+-printconfiguration /home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class com.medinfi.main.MedInfiApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.medinfi.SplashActivity {
+    <init>();
+}
+
+-keep class com.medinfi.SpecialistActivity {
+    <init>();
+}
+
+-keep class com.medinfi.SpecialistDoctorsActivity {
+    <init>();
+}
+
+-keep class com.medinfi.HomeScreen {
+    <init>();
+}
+
+-keep class com.medinfi.GeneralPhysicansActivity {
+    <init>();
+}
+
+-keep class com.medinfi.HospitalsActivity {
+    <init>();
+}
+
+-keep class com.medinfi.RateTheDoctorActivity {
+    <init>();
+}
+
+-keep class com.medinfi.RateTheHospitalActivity {
+    <init>();
+}
+
+-keep class com.medinfi.UploadPrescriptionActivity {
+    <init>();
+}
+
+-keep class com.medinfi.UploadHospitalPrescription {
+    <init>();
+}
+
+-keep class com.medinfi.ContactUs {
+    <init>();
+}
+
+-keep class com.medinfi.DoctorDetailsActivity {
+    <init>();
+}
+
+-keep class com.medinfi.HospitalDetailsActivity {
+    <init>();
+}
+
+-keep class com.medinfi.RegisterActivity {
+    <init>();
+}
+
+-keep class com.medinfi.LoadUrlActivity {
+    <init>();
+}
+
+-keep class com.medinfi.LocationUpdateActivity {
+    <init>();
+}
+
+-keep class com.medinfi.FavouriteActivity {
+    <init>();
+}
+
+-keep class com.medinfi.ContactSyncUpActivity {
+    <init>();
+}
+
+-keep class com.medinfi.SuggestDoctorHospitalActivity {
+    <init>();
+}
+
+-keep class com.medinfi.MedicalReportsActivity {
+    <init>();
+}
+
+-keep class com.medinfi.UploadMedicalReportActivity {
+    <init>();
+}
+
+-keep class com.medinfi.AutoDetection {
+    <init>();
+}
+
+-keep class com.medinfi.ProfileActivity {
+    <init>();
+}
+
+-keep class com.medinfi.ReviewsActivity {
+    <init>();
+}
+
+-keep class com.medinfi.main.UserUpdateService {
+    <init>();
+}
+
+-keep class com.mobileapptracker.Tracker {
+    <init>();
+}
+
+-keep class com.google.android.gms.ads.AdActivity {
+    <init>();
+}
+
+-keep class com.medinfi.utils.GcmBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.medinfi.utils.GCMNotificationIntentService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

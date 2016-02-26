@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dip"
+    android:gravity="center"
+    android:orientation="vertical"
+     >
+
+    
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:gravity="center" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/myviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="300dip" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="33dip" >
+
+        <com.medinfi.utils.TextViewRobotoRegular
+            android:id="@+id/txtCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:paddingBottom="5dip"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/close_button_hs"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingBottom="2dip"
+            android:layout_alignParentRight="true"
+            android:background="@android:drawable/ic_delete" />
+    </RelativeLayout>
+
+</RelativeLayout>

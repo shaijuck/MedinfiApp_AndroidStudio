@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/mili/AndroidStudioProjects/MedinfiApp_R4.9/medinfiApp/src/debug/jniLibs"/></dataSet></merger>

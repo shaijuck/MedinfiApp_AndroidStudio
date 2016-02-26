@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tab_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#65686D"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/tab_bottom_layout_padding"
+        android:paddingRight="@dimen/tab_bottom_layout_padding"
+        android:weightSum="100" 
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp">
+
+        <RelativeLayout
+            android:id="@+id/privacypolicy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="49" 
+            >
+
+            <TextView
+                android:id="@+id/privacy_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/PrivacyPolicy"
+                android:textColor="@color/white"
+                android:textSize="12dp" 
+                android:padding="15dp"
+               />
+            
+        </RelativeLayout>
+
+       <RelativeLayout
+            android:id="@+id/doctor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+             android:layout_weight="2"
+             android:layout_marginTop="5dp"
+             android:layout_marginBottom="5dp">
+
+           <View
+               android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+               </View>
+            
+        </RelativeLayout>
+        
+         <RelativeLayout
+             android:id="@+id/terms_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/screen_logo" 
+             android:layout_weight="49"
+              >
+         <TextView
+                android:id="@+id/terms_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/TermsUse"
+                android:textColor="@color/white"
+                android:textSize="12dp" 
+                android:padding="15dp"/>
+         
+           </RelativeLayout>
+           
+           
+           
+       
+    </LinearLayout>

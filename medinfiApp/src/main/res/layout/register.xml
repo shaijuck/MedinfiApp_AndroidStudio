@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/layoutTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/create_account"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imgCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:onClick="onClickCancel"
+                    android:src="@android:drawable/ic_delete"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtHeaderDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/screen_header"
+                android:textSize="16sp"
+                android:layout_marginTop="10dip"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dip"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edtMailId"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="@string/email"
+                android:imeOptions="actionNext"
+                android:inputType="text|textFilter"
+                android:nextFocusDown="@+id/et_registercompany"
+                android:paddingLeft="10dp"
+                android:singleLine="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/password"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:password="true"
+                    android:singleLine="true" />
+
+                <LinearLayout
+                    android:id="@+id/layoutForgotPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:onClick="onForgotClickEnent"
+                    android:paddingLeft="10dip"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/txtForgotPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:gravity="bottom|right"
+                        android:hint="@string/msgForgotPassWord"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/edtConformPassword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/conform_password"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:password="true"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/txtRegDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/msgRegDesc"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/layoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip" >
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="20dip"
+                    android:layout_toLeftOf="@+id/layoutDiver"
+                    android:background="@drawable/city_selector"
+                    android:text="@string/create_account"
+                    android:textColor="@color/text_color_selector"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/layoutDiver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/line_two"
+                    android:orientation="horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/layoutExistingUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_toRightOf="@+id/layoutDiver"
+                    android:gravity="center|left"
+                    android:onClick="switchUserClickEvent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtExistingUser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/msgExistUser"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtSignIn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/msgSignIn"
+                        android:paddingBottom="5dip"
+                        android:textColor="@color/screen_header"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

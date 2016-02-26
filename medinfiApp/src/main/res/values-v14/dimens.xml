@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- <dimen name="btn_width">60dp</dimen>
+    <dimen name="btn_height">60dp</dimen> -->
+  <dimen name="homescreen_item_lyt_height">100dp</dimen>
+  
+  <dimen name="hs_btn_width">61dp</dimen>
+      <dimen name="hs_btn_height">66dp</dimen>
+</resources>

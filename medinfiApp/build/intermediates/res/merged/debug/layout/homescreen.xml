@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutInclude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <include layout="@layout/header_layout" />
+    </LinearLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" >
+
+        <RelativeLayout
+            android:id="@+id/mainRelLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/searchLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true" >
+
+                <com.medinfi.utils.GlobalSearchEditText
+                    android:id="@+id/globalSearchEdtText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="@string/globalSearchHint"
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hs_footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtNoComission"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:gravity="center"
+                    android:text="@string/msg_noComission"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+               <!--  <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/googleAdsId" /> -->
+
+                <ImageView
+                    android:id="@+id/imgBannerAds"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onClickBannerAds"
+                    android:src="@drawable/onemg_ads" />
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/scrollLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/hs_footer"
+                android:layout_below="@id/searchLayout"
+                android:layout_centerInParent="true"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/gp_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@android:color/white"
+                        android:gravity="center|left" >
+
+                        <LinearLayout
+                            android:id="@+id/gp_lyt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/white"
+                            android:gravity="center" >
+
+                            <ImageView
+                                android:id="@+id/btn_general_physicians"
+                                android:layout_width="@dimen/hs_btn_width"
+                                android:layout_height="@dimen/hs_btn_height"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/gp_icon_normal" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/gp_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:paddingLeft="5dip"
+                            android:text="@string/gp"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/div_line" />
+
+                    <LinearLayout
+                        android:id="@+id/sp_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/white"
+                        android:gravity="center|left" >
+
+                        <LinearLayout
+                            android:id="@+id/sp_lyt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/white"
+                            android:gravity="center" >
+
+                            <ImageView
+                                android:id="@+id/btn_specialists"
+                                android:layout_width="@dimen/hs_btn_width"
+                                android:layout_height="@dimen/hs_btn_height"
+                                android:layout_centerHorizontal="true"
+                                android:paddingLeft="5dip"
+                                android:src="@drawable/specialist_icon_normal" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/sp_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/sp_lyt"
+                            android:text="@string/specialist_doctors"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/div_line" />
+
+                    <LinearLayout
+                        android:id="@+id/hospital_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/white"
+                        android:gravity="center|left" >
+
+                        <LinearLayout
+                            android:id="@+id/hospital_lyt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/white"
+                            android:gravity="center" >
+
+                            <ImageView
+                                android:id="@+id/btn_hospitals"
+                                android:layout_width="@dimen/hs_btn_width"
+                                android:layout_height="@dimen/hs_btn_height"
+                                android:layout_centerHorizontal="true"
+                                android:paddingLeft="5dip"
+                                android:src="@drawable/hospital_icon_normal" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/hospital_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/hospital_lyt"
+                            android:text="@string/hospitals"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/div_line" />
+                </LinearLayout>
+            </ScrollView>
+
+            <ListView
+                android:id="@+id/globalListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/searchLayout"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:choiceMode="singleChoice"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:listSelector="@android:color/transparent"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/layoutNoNetWork"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/searchLayout"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/txtNoNetwork"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/No_Network"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtNoNetworkDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dip"
+                    android:text="@string/No_NetworkDesc"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtNoResultFound"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/searchLayout"
+                android:layout_margin="20dip"
+                android:gravity="center"
+                android:text="@string/No_ResultFound"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/list_slidermenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/white"
+            android:choiceMode="singleChoice"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:listSelector="#00000000" />
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

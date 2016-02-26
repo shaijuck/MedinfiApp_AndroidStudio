@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+   <!--  <LinearLayout
+        android:id="@+id/layoutInclude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/header_layout" />
+    </LinearLayout> --> 
+    
+    <LinearLayout
+        android:id="@+id/layoutInclude2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="visible"
+         >
+
+        <include layout="@layout/tab_layout" />
+    </LinearLayout>
+    
+  <ScrollView 
+      android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/profile_scrollView"
+    android:fillViewport="true" 
+    android:layout_below="@+id/layoutInclude2">
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="60dp" >   
+    <LinearLayout
+        android:id="@+id/layoutInclude3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="visible"
+         >
+
+        <include layout="@layout/menuitems" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <com.medinfi.utils.TextViewRobotoBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="@string/no_commission_msg"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        
+    </LinearLayout>
+
+  <!--  <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" > -->
+
+<!-- Hide all saved hospital and doctor -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:visibility="gone">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_marginTop="30dp"
+             android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center|left" 
+            >
+                                <ImageView
+                                android:id="@+id/save_img"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="5dip"
+                                android:src="@drawable/save_black" />
+            <com.medinfi.utils.TextViewRobotoRegular
+                android:id="@+id/txtSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/profilefav"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" 
+                android:layout_toRightOf="@id/save_img"/>
+</LinearLayout>
+
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_marginTop="10dp"
+             android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center|left" 
+            >
+        <TextView
+                            android:id="@+id/hos_tv_qty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/save_lyt"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="10dp" />
+                        <TextView
+                            android:id="@+id/hos_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/hos_tv_qty"
+                            android:text="@string/hospital"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" 
+                            android:layout_marginLeft="10dp" />
+                        </LinearLayout>
+
+            <com.medinfi.utils.MyEditText
+                android:id="@+id/searchedittext"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="@string/hint_Hospital"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            
+
+            <ListView
+                android:id="@+id/favouriteListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="#FFFFFF"
+                android:dividerHeight="1dp"
+                android:listSelector="@android:color/transparent"
+                android:overScrollMode="never"
+                android:scrollbars="none" 
+                android:visibility="gone"
+                >
+            </ListView>
+            
+            <com.medinfi.utils.TextViewRobotoRegular
+                android:id="@+id/txtNoRecordFound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                 android:layout_marginTop="30dip"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="20dip"
+                android:gravity="center"
+                android:text="@string/No_RecordFoundHos"
+                android:textColor="@color/lightgrey"
+                android:textSize="20sp"
+                android:visibility="gone" />
+            
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_marginTop="30dp"
+             android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center|left" 
+            >
+        <TextView
+                            android:id="@+id/doc_tv_qty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/save_lyt"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="10dp" />
+                        <TextView
+                            android:id="@+id/doc_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/doc_tv_qty"
+                            android:text="@string/doctors"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" 
+                            android:layout_marginLeft="10dp" />
+                        </LinearLayout>
+            
+            <ListView
+                android:id="@+id/favouriteDocListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="#FFFFFF"
+                android:dividerHeight="1dp"
+                android:listSelector="@android:color/transparent"
+                android:overScrollMode="never"
+                android:scrollbars="none" 
+                android:visibility="gone"
+                >
+            </ListView>
+
+            <com.medinfi.utils.TextViewRobotoRegular
+                android:id="@+id/txtNoRecordFound2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                 android:layout_marginTop="30dip"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="20dip"
+                android:gravity="center"
+                android:text="@string/No_RecordFoundDoc"
+                android:textColor="@color/lightgrey"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/layoutNoNetWork"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:orientation="vertical"
+                android:textColor="@color/lightgrey"
+                android:visibility="gone" >
+
+                <com.medinfi.utils.TextViewRobotoRegular
+                    android:id="@+id/txtNoNetwork"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/No_Network"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="20sp" />
+
+                <com.medinfi.utils.TextViewRobotoRegular
+                    android:id="@+id/txtNoNetworkDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dip"
+                    android:text="@string/No_NetworkDesc"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+       
+        
+ <!--   </android.support.v4.widget.DrawerLayout>--> 
+  </LinearLayout>
+  </ScrollView>
+   <LinearLayout
+        android:id="@+id/policy_terms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+         android:layout_alignParentBottom="true"
+         >
+
+        <include layout="@layout/terms_policy" />
+    </LinearLayout>
+</RelativeLayout>

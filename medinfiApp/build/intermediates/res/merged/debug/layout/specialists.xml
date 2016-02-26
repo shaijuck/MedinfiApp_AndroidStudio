@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:id="@+id/layoutInclude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" 
+        android:visibility="gone">
+
+        <include layout="@layout/header_layout" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/specialists_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutInclude"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/specialist_doctors"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+    
+    <ImageView
+            android:id="@+id/imgCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="onClickCancel"
+            android:src="@drawable/close"
+            android:visibility="visible"
+            android:layout_margin="3dp" />
+
+    <com.medinfi.utils.MyEditText
+        android:id="@+id/searchedittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/specialists_tv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/hint_Specialization"
+        android:imeOptions="actionSearch"
+        android:textSize="14sp"
+        android:singleLine="true"
+        />
+
+    <ListView
+        android:id="@+id/specialistslistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchedittext"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#FFFFFF"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/layoutNoNetWork"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/specialistslistview"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dip"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/txtNoNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/No_Network"
+            android:textColor="@color/lightgrey"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtNoNetworkDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/No_NetworkDesc"
+            android:textColor="@color/lightgrey"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

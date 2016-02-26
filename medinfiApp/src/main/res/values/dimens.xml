@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="btn_width">25dp</dimen>
+    <dimen name="btn_height">25dp</dimen>
+    
+    
+      <dimen name="homescreen_item_lyt_height">100dp</dimen>
+      
+      <dimen name="hs_btn_width">42dp</dimen>
+      <dimen name="hs_btn_height">42dp</dimen>
+
+      
+       <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    
+    <dimen name="tab_title_sz">17sp</dimen>
+    <dimen name="tab_subtitle_sz">14sp</dimen>
+    <dimen name="tab_title_margin">10dp</dimen>
+    <dimen name="tab_bottom_layout_padding">10dp</dimen>
+     <dimen name="tab_txt_name_size">10sp</dimen>
+     <dimen name="tab_txt_name_margin">5dp</dimen>
+</resources>

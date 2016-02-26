@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingTop="10dip" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <ImageView
+            android:id="@+id/imgCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="onClickCancel"
+            android:src="@android:drawable/ic_delete"
+            android:visibility="gone" />
+
+        <com.medinfi.utils.TextViewRobotoRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/Msg_Location"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <com.medinfi.utils.TextViewRobotoRegular
+        android:id="@+id/txtAutoDetect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutTop"
+        android:layout_marginTop="15dip"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:text="@string/label_auto_detected"
+        android:textColor="@color/pink_color"
+        android:textSize="18sp" />
+
+  <!--   <ScrollView
+         android:id="@+id/scrollviewlayoutMiddle"
+         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layoutBottom"
+        android:layout_below="@+id/txtAutoDetect"
+        android:layout_centerInParent="true" >  --> 
+    <LinearLayout
+        android:id="@+id/layoutMiddle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layoutBottom"
+        android:layout_below="@+id/txtAutoDetect"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <com.medinfi.utils.TextViewRobotoRegular
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:gravity="center|left"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <com.medinfi.utils.TextViewRobotoRegular
+            android:id="@+id/txtErrorMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/screen_header"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <com.medinfi.utils.TextViewRobotoRegular
+            android:id="@+id/txtCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:gravity="center"
+            android:text="@string/label_city"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/searchCity"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:focusable="false"
+            android:imeOptions="actionSearch"
+            android:onClick="onClickSearchCity"
+            android:singleLine="true"
+            android:textColor="@android:color/black" >
+        </EditText>
+
+        <ListView
+            android:id="@+id/cityListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#FFFFFF"
+            android:dividerHeight="1dp"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:visibility="gone" >
+        </ListView>
+
+        <com.medinfi.utils.TextViewRobotoRegular
+            android:id="@+id/txtLocality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:gravity="center"
+            android:text="@string/label_lacolity"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.medinfi.utils.MyEditText
+            android:id="@+id/searchLocality"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:imeOptions="actionSearch"
+            android:onClick="onClickSearchLocality"
+            android:singleLine="true"
+            android:textColor="@android:color/black" >
+        </com.medinfi.utils.MyEditText>
+
+        <ListView
+            android:id="@+id/localityListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#FFFFFF"
+            android:dividerHeight="1dp"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:visibility="gone" >
+        </ListView>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/city_selector"
+            android:onClick="onBtnUpdate"
+            android:text="@string/btn_Upload"
+            android:textColor="@color/text_color_selector" />
+    </LinearLayout>
+    
+    <!-- </ScrollView> -->
+
+    <LinearLayout
+        android:id="@+id/layoutNoNetWork"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAutoDetect"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/txtNoNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/No_Network"
+            android:textColor="@color/lightgrey"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtNoNetworkDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:text="@string/No_NetworkDesc"
+            android:textColor="@color/lightgrey"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <com.medinfi.utils.TextViewRobotoRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="@string/Msg_Location_Availability"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.medinfi.utils.TextViewRobotoBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="@string/Msg_Location_Available_City"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <!-- <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/googleAdsId" /> -->
+    </LinearLayout>
+
+</RelativeLayout>
